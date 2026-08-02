@@ -1,0 +1,3 @@
+/home/david/Desktop/projects/soap bubble/build/CMakeFiles/renderer.dir
+/home/david/Desktop/projects/soap bubble/build/CMakeFiles/edit_cache.dir
+/home/david/Desktop/projects/soap bubble/build/CMakeFiles/rebuild_cache.dir
