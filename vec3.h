@@ -129,7 +129,7 @@ inline vec3 refract(const vec3&uv, const vec3&n, double etai_over_etat){
     // kolma cast
     // etai_over_etat * (R - (R . n) * n)
 
-    auto r_out_perp = etai_over_etat * (uv - std::fmin(dot(uv, n), 1.0) * n);
+    auto r_out_perp = etai_over_etat * (uv + std::fmin(dot(-uv, n), 1.0) * n);
 
     // rovnobezna
     // - sqrt(1 - dlzka(r perp) ^ 2) * n
